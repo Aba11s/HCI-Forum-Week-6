@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styling.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Smart Home Control Panel</title>
+</head>
+<body>
+    <!------Sidebar start------>
+   <div class="sidebar">
+        <ul class="menu">
+            <li>
+                <a href="#">
+                    <i class='bx bxs-home'></i>
+                    <span class="label">Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-user-circle'></i>
+                    <span class="label">Profile</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-cog'></i>
+                    <span class="label">Settings</span>
+                </a>
+            </li>
+            <li class="exit">
+                <a href="#">
+                    <i class='bx bx-exit'></i>
+                    <span class="label">Exit</span>
+                </a>
+            </li>
+        </ul>
+   </div> 
+   <!------Sidebar End------>
+   <!------Main start------>
+   <main>
+
+        <div class="header--wrap">
+            <h3> General information </h3>
+        </div>
+        <div class="infos">
+            <div class="info">
+                <div class="left">
+                    <i class='bx bxs-thermometer'></i>          
+                </div>
+                <div class="right">
+                    <h2>Temperature</h2>
+                    <h1> 33 °C</h1>
+                </div>
+            </div>
+            <div class="info">
+                <div class="left">
+                    <i class='bx bxs-zap'></i>          
+                </div>
+                <div class="right">
+                    <h2>Power consumption</h2>
+                    <h1> 28 kWh</h1>
+                </div>
+            </div>
+        </div>
+        <div class="header--wrap">
+            <h3>Smart Devices</h3>
+        </div>
+        <div class="infos">
+            <div class="info">
+                <div class="logo">
+                    <i class='bx bx-bulb'></i>
+                </div>
+                <div class="right">
+                    <h2> Lights </h2>
+                    <h1>Active</h1>
+                    <span>8 active</span>
+                </div>
+            </div>
+            <div class="info">
+                <div class="logo">
+                    <i class='bx bxs-lock'></i>
+                </div>
+                <div class="right">
+                    <h2> Locks </h2>
+                    <h1>Active</h1>
+                    <span>2 active</span>
+                </div>
+            </div>
+            <div class="info">
+                <div class="logo">
+                    <i class='bx bxs-camera-home'></i>
+                </div>
+                <div class="right">
+                    <h2>Cameras </h2>
+                    <h1>Active</h1>
+                    <span>1 active</span>
+                </div>
+            </div>
+            <div class="info">
+                <div class="logo">
+                    <i class='bx bx-cloud-snow'></i>
+                </div>
+                <div class="right">
+                    <h2>Air conditioner</h2>
+                    <h1>Idle</h1>
+                    <span>0 active</span>
+                </div>
+            </div>
+        </div>
+   </main>
+
+   </div>
+   </body>
+</body>
+</html>

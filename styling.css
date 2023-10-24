@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+
+:root {
+    --color-primary: #2e2e2e;
+    --color-primary-hover: #505050;
+    --color-second: #272626;
+    --color-letter-main: #37db9c;
+    --color-letter-second: #1f7554;
+    --color-background: #222222;
+}
+/*variables*/
+h1 {
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: var(--color-letter-main)
+}
+h2 {
+    font-weight: 800;
+    font-size: 0.88rem;
+    color: var(--color-letter-main);
+}
+h3 {
+    padding: 0.4rem;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: var(--color-letter-main);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    font-family: poppins, sans-serif;
+    font-size: 0.88rem;
+    background: var(--color-background) ;
+}
+
+.sidebar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 6.4rem;
+    padding: 0 1.7rem;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+    background-color: var(--color-primary);
+}
+.sidebar:hover {
+    width: 12rem;
+}
+.menu {
+    margin-top: 50px;
+    height: 10%;
+    position: relative;
+    padding: 0;
+}
+.menu li{
+    padding: 1rem;
+    margin: 20px 0;
+    border-radius: 7px;
+    transition: all 300ms ease;
+}
+.menu li:hover {
+    background-color: gray;
+}
+.menu a {
+    color: var(--color-letter-main);
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    gap: 1rem;
+}
+.menu a span {
+    overflow: hidden;
+}
+.menu a i {
+    font-size: 1rem;
+}
+.exit {
+    position: absolute;
+    bottom: -30rem;
+    width: 100%;
+}
+
+.header--wrap {
+    position: relative;
+    width: auto;
+    background: var(--color-second);
+}
+.infos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.info {
+    display: flex;
+    background: var(--color-primary);
+    width: 14rem;
+    height: 8rem;
+    margin: 0.8rem;
+    padding: 1.2rem;
+    border-radius: 0.8rem;
+    gap: 0.5rem;
+    color: var(--color-letter-main);
+    transition: all 300ms;
+}
+.info:hover {
+    background: var(--color-primary-hover);
+}
+.info div i {
+    font-size: 4rem;
+}
+.info div span {
+    color: var(--color-letter-second);
+}
+
+
+
+
